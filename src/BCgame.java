@@ -13,7 +13,7 @@ public class BCgame
         if (number == 0)
         {
             number = (int) ((Math.random() * ((9999 - 1000) + 1)) + 1000);
-            loader.write_file("Загадано число: " + number);
+            loader.write_file("Загадано число: ");
         }
         String targetStr = number + "";
         Scanner input = new Scanner(System.in);
